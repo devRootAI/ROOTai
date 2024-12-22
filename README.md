@@ -1,4 +1,3 @@
-```markdown
 # OpenAI JSON Dev Builder
 
 ## 🌟 Introduction
