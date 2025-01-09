@@ -1,6 +1,6 @@
 # Fork.AI
 
-## 🌟 Introduction
+## Introduction
 
 The **Fork.AI* is a powerful Node.js CLI application designed to streamline application development. With this tool, you can:
 
@@ -12,7 +12,7 @@ Whether you're building chatbots, integrations, or full-fledged applications, th
 
 ---
 
-## ✨ Features
+## Features
 
 - **Interactive CLI**: Simple, user-friendly prompts to guide you through the process.
 - **Dynamic API Understanding**: Parses `openai.json` to understand API endpoints and capabilities.
@@ -22,7 +22,7 @@ Whether you're building chatbots, integrations, or full-fledged applications, th
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 Here’s an overview of the application’s structure:
 
@@ -43,7 +43,7 @@ Here’s an overview of the application’s structure:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Prerequisites
 
@@ -151,7 +151,7 @@ Generated files in `output/WeatherApp`:
 
 ---
 
-## 🛠 Troubleshooting
+## Troubleshooting
 
 - **Node.js Version Error**: Ensure you’re using Node.js `v16.x` or higher.
 - **`openai.json` Fetch Error**: Verify the URL is correct and accessible.
@@ -159,7 +159,7 @@ Generated files in `output/WeatherApp`:
 
 ---
 
-## 🌐 How It Works
+## How It Works
 
 1. **Fetch API Documentation**:
    - The application downloads the `openai.json` file to understand the API’s endpoints, parameters, and capabilities.
@@ -179,13 +179,13 @@ Generated files in `output/WeatherApp`:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you'd like to add features or improve the code, follow these steps:
 
@@ -206,12 +206,12 @@ Contributions are welcome! If you'd like to add features or improve the code, fo
 
 ---
 
-## 💬 Feedback
+## Feedback
 
 Have suggestions or feedback? Open an issue!
 
 ---
 
-## 🌟 Support
+## Support
 
 If you find this project helpful, please give it a ⭐ on [GitHub](https://github.com/fork-ai-builder/Fork.AI)!
