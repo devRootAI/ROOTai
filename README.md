@@ -1,8 +1,10 @@
-# Fork.AI
+# FORKai
+
+[https://x.com/ForkAi_sol](https://x.com/ForkAi_sol)
 
 ## Introduction
 
-The **Fork.AI* is a powerful Node.js CLI application designed to streamline application development. With this tool, you can:
+The **FORKai* is a powerful Node.js CLI application designed to streamline application development. With this tool, you can:
 
 - Leverage API documentation (`openai.json`) to understand the system you’re building against.
 - Specify the exact functionality you want.
@@ -57,8 +59,8 @@ Here’s an overview of the application’s structure:
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/fork-ai-builder/Fork.AI.git
-   cd fork.ai
+   git clone https://github.com/fork-ai-builder/FORKai.git
+   cd FORKai
    ```
 
 2. **Install dependencies**:
@@ -214,4 +216,4 @@ Have suggestions or feedback? Open an issue!
 
 ## Support
 
-If you find this project helpful, please give it a ⭐ on [GitHub](https://github.com/fork-ai-builder/Fork.AI)!
+If you find this project helpful, please give it a ⭐ on [GitHub](https://github.com/fork-ai-builder/FORKai)!
