@@ -1,8 +1,8 @@
-# OpenAI JSON Dev Builder
+# Fork.AI
 
 ## 🌟 Introduction
 
-The **OpenAI JSON Dev Builder** is a powerful Node.js CLI application designed to streamline application development. With this tool, you can:
+The **Fork.AI* is a powerful Node.js CLI application designed to streamline application development. With this tool, you can:
 
 - Leverage API documentation (`openai.json`) to understand the system you’re building against.
 - Specify the exact functionality you want.
