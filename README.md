@@ -57,8 +57,8 @@ Here’s an overview of the application’s structure:
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/aigod452/openai-json-dev-builder.git
-   cd openai-json-dev-builder
+   git clone https://github.com/fork-ai-builder/Fork.AI.git
+   cd fork.ai
    ```
 
 2. **Install dependencies**:
@@ -214,4 +214,4 @@ Have suggestions or feedback? Open an issue!
 
 ## 🌟 Support
 
-If you find this project helpful, please give it a ⭐ on [GitHub](https://github.com/aigod452/openai-json-dev-builder)!
+If you find this project helpful, please give it a ⭐ on [GitHub](https://github.com/fork-ai-builder/Fork.AI)!
