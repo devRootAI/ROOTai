@@ -3,3 +3,4 @@ module.exports = {
     outputDirectory: '../output', // Default output directory
     openaiModel: 'text-davinci-003', // Default OpenAI model
   };
+//    DO NOT COMMIT WITH YOUR CONFIG
