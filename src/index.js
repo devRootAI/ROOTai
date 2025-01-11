@@ -17,7 +17,7 @@ async function main() {
     // Step 3: Generate code using OpenAI
     const generatedCode = await generateCode(apiDocumentation, buildDescription, language, appName);
 
-    // Step 4: Write generated code to output folder
+    // Step 4: Write generated code to output folder and proj files
     const outputDir = path.join(__dirname, config.outputDirectory, appName);
     await writeFiles(outputDir, appName, language, generatedCode);
 
