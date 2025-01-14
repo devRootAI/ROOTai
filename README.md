@@ -1,27 +1,26 @@
+# ROOTai
 
-# MERGE
-
-[https://x.com/MergeAi_sol](https://x.com/MergeAi_sol)
+[https://x.com/RootAi_sol](https://x.com/RootAi_sol)
 
 ## Introduction
 
-The **MERGE** tool is a cutting-edge Node.js CLI application designed to integrate and merge multiple AI agents seamlessly. With MERGE, you can:
+The **ROOTai** is a powerful Node.js CLI application designed to streamline application development. With this tool, you can:
 
-- Consolidate functionalities across diverse AI systems.
-- Define specific interactions between AI agents.
-- Automatically generate cohesive integration code using OpenAI’s capabilities.
-
-Whether you're developing AI-driven workflows, hybrid applications, or multi-agent systems, MERGE is your go-to assistant for intelligent agent integration.
+- Leverage API documentation (`openai.json`) to understand the system you’re building against.
+- Specify the exact functionality you want.
+- Automatically generate complete application code using OpenAI’s capabilities.
+  
+Whether you're building chatbots, integrations, or full-fledged applications, this tool is your AI-powered developer assistant.
 
 ---
 
 ## Features
 
-- **Interactive CLI**: Intuitive prompts to guide you through agent merging.
-- **Dynamic Agent Analysis**: Parses `agents.json` to understand agent capabilities and endpoints.
-- **Integration Code Generation**: Leverages OpenAI to produce code tailored to your integration needs.
-- **Error Handling and Reporting**: Identifies potential issues with agent interactions and informs you of limitations.
-- **Organized Output**: Creates structured project files in an output folder.
+- **Interactive CLI**: Simple, user-friendly prompts to guide you through the process.
+- **Dynamic API Understanding**: Parses `openai.json` to understand API endpoints and capabilities.
+- **Custom Code Generation**: Uses OpenAI to generate an application tailored to your needs in the programming language of your choice.
+- **Handles API Limitations**: Clearly identifies and informs you of any API constraints.
+- **Project Output**: Automatically creates project files and organizes them in an output folder.
 
 ---
 
@@ -33,13 +32,13 @@ Here’s an overview of the application’s structure:
 /project
   ├── /src
   │    ├── index.js           # Main entry point
-  │    ├── fetchAgents.js     # Fetches agent configuration files
+  │    ├── fetchJSON.js       # Fetches API documentation
   │    ├── prompts.js         # Handles user prompts
-  │    ├── integrationGenerator.js # OpenAI integration for merging agents
+  │    ├── openaiGenerator.js # OpenAI integration
   │    ├── fileWriter.js      # File management
   ├── /config
   │    ├── config.js          # Centralized configuration
-  ├── /output                 # Generated integration projects
+  ├── /output                 # Generated applications
   ├── package.json            # NPM dependencies
   ├── README.md               # Project documentation
 ```
@@ -60,8 +59,8 @@ Here’s an overview of the application’s structure:
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/merge-ai/MERGE.git
-   cd MERGE
+   git clone https://github.com/rootai-builder/ROOTai.git
+   cd ROOTai
    ```
 
 2. **Install dependencies**:
@@ -113,26 +112,26 @@ Follow these steps to use the application:
 
 2. **Answer the prompts**:
 
-   - **Step 1**: Provide the `agents.json` URL. This URL should point to the configuration file containing agent details.
-     - Example: `https://example.com/agents.json`.
-   - **Step 2**: Describe the desired integration between agents.
-     - Example: *“Merge a chatbot with a recommendation system”*.
+   - **Step 1**: Provide the `openai.json` URL. This URL should point to the API documentation in JSON format.
+     - Example: `https://example.com/openai.json`.
+   - **Step 2**: Describe what you want to build.
+     - Example: *“A chatbot that helps users schedule meetings”*.
    - **Step 3**: Choose your programming language.
      - Options: `JavaScript`, `Python`, `Go`, `Java`.
-   - **Step 4**: Enter a name for your project.
-     - Example: `ChatbotRecommender`.
+   - **Step 4**: Enter a name for your application.
+     - Example: `MeetingSchedulerBot`.
 
 3. **Wait for the application to process**:
 
-   - The program fetches the `agents.json` file.
-   - It uses OpenAI to generate the integration code based on your description.
+   - The program fetches the `openai.json` file.
+   - It uses OpenAI to generate the application based on your description and the API documentation.
    - All files are written to the `/output` folder.
 
-4. **Access your generated project**:
+4. **Access your generated application**:
 
    - Navigate to the `/output` directory:
      ```bash
-     cd output/<YourProjectName>
+     cd output/<YourAppName>
      ```
 
 ---
@@ -140,24 +139,27 @@ Follow these steps to use the application:
 ## Troubleshooting
 
 - **Node.js Version Error**: Ensure you’re using Node.js `v16.x` or higher.
-- **`agents.json` Fetch Error**: Verify the URL is correct and accessible.
+- **`openai.json` Fetch Error**: Verify the URL is correct and accessible.
 - **Missing OpenAI API Key**: Check that your API key is correctly set in `config/config.js` or `.env`.
 
 ---
 
 ## How It Works
 
-1. **Fetch Agent Configurations**:
-   - The application downloads the `agents.json` file to understand agent capabilities.
+1. **Fetch API Documentation**:
+   - The application downloads the `openai.json` file to understand the API’s endpoints, parameters, and capabilities.
 
 2. **Understand User Requirements**:
-   - You describe the integration (e.g., "Combine a chatbot and an image analyzer").
+   - You provide a description of what you want to build (e.g., "A chatbot for booking flights").
 
-3. **Generate Integration Code**:
-   - The program sends the configuration and your description to OpenAI.
-   - OpenAI generates the integration code in the specified programming language.
+3. **Generate Code**:
+   - The program sends the API documentation and your description to OpenAI.
+   - OpenAI generates the code in the specified programming language.
 
-4. **Save Output**:
+4. **Handle Limitations**:
+   - If OpenAI identifies API limitations, it explains them in the generated code or the output.
+
+5. **Save Output**:
    - All generated files are saved in the `/output` folder.
 
 ---
@@ -197,4 +199,4 @@ Have suggestions or feedback? Open an issue!
 
 ## Support
 
-If you find this project helpful, please give it a ⭐ on [GitHub](https://github.com/merge-ai/MERGE)!
+If you find this project helpful, please give it a ⭐ on [GitHub](https://github.com/devRootAI/ROOTai)!
