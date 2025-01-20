@@ -1,6 +1,6 @@
 # ROOTai
 
-[https://x.com/RootAi_sol](https://x.com/RootAi_sol)
+[https://x.com/Root__AI](https://x.com/Root__AI)
 
 ## Introduction
 
